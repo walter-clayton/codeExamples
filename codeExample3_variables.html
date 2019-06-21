@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+	var x = 10;
 
+	/* or use const a.k.a. is a constant, a value that cannot be changed
+	Go to the browser console
+	type in x = 10
+	then x = 20
+	then type y = 10
+	then y = 20
+	you'll notice that y comes up as an error becasue its a constant*/
+
+
+	const y = 10;
+
+
+	/*parseInt will convert from a string containing a number into a TRUE number
+	If you would put x+y it would come out as 1010 whereas parseInt(x+y) outputs 20*/
+
+	document.write(x + " + " + y + ' ' + parseInt(x+y));
+
+
+</script>
 	<title>code Example 3. Variables</title>
 </head>
 <body>
 	
-	<script type="text/javascript">
-		document.write("<p>The reason why you put the Javascript &ltscript&gt at the bottom is because you want the html to load properly first. </p> <div>If you put the Javascript &ltscript&gt in the <u>head</u> you want the content to change first.</div>")
-	</script>
+
 
 </body>
 </html>
